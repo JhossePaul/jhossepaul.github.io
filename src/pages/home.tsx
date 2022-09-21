@@ -1,9 +1,10 @@
-import {MainTitle, MainTitleContainer} from 'src/components/main'
+import { SectionTitle, SectionContent, SectionContainer } from 'src/components/main'
 
 export default function Home () {
   return (
-    <MainTitleContainer>
-      <MainTitle>Home</MainTitle>
-    </MainTitleContainer>
+    <SectionContainer>
+      <h1>Paul Márquez</h1>
+      <p>Data Scientist and Developer</p>
+    </SectionContainer>
   )
 }

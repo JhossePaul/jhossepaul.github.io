@@ -11,7 +11,7 @@ import {
   FaBriefcase,
   FaCode,
   FaEnvelope,
-  FaFileAlt
+  FaFileAlt,
 } from 'react-icons/fa'
 
 export function Navbar () {
@@ -21,7 +21,7 @@ export function Navbar () {
       <NavMenu>
 
         <NavItem>
-          <NavLink to='/'>
+          <NavLink to='home' activeClass='active' spy smooth offset={-70} duration={500}>
             <NavIcon>
               <FaHome />
             </NavIcon>
@@ -30,7 +30,7 @@ export function Navbar () {
         </NavItem>
 
         <NavItem>
-          <NavLink to='/about'>
+          <NavLink to='about' activeClass='active' spy smooth offset={-70} duration={500}>
             <NavIcon>
               <FaUser />
             </NavIcon>
@@ -39,7 +39,7 @@ export function Navbar () {
         </NavItem>
 
         <NavItem>
-          <NavLink to='/resume'>
+          <NavLink to='resume' activeClass='active' spy smooth offset={-70} duration={500}>
             <NavIcon>
               <FaFileAlt />
             </NavIcon>
@@ -48,7 +48,7 @@ export function Navbar () {
         </NavItem>
 
         <NavItem>
-          <NavLink to='/portfolio'>
+          <NavLink to='portfolio' activeClass='active' spy smooth offset={-70} duration={500}>
             <NavIcon>
               <FaBriefcase />
             </NavIcon>
@@ -57,7 +57,7 @@ export function Navbar () {
         </NavItem>
 
         <NavItem>
-          <NavLink to='/services'>
+          <NavLink to='services' activeClass='active' spy smooth offset={-70} duration={500}>
             <NavIcon>
               <FaCode />
             </NavIcon>
@@ -66,7 +66,7 @@ export function Navbar () {
         </NavItem>
 
         <NavItem>
-          <NavLink to='/contact'>
+          <NavLink to='contact' activeClass='active' spy smooth offset={-70} duration={500}>
             <NavIcon>
               <FaEnvelope />
             </NavIcon>

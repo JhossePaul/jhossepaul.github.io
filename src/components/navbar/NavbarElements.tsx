@@ -1,20 +1,19 @@
-import { FaBars } from 'react-icons/fa'
-import { NavLink as Link } from 'react-router-dom'
+import { Link, animateScroll as scroll } from 'react-scroll'
 import styled from 'styled-components'
 
 export const Header = styled.header`
-  height: 100%;
-  position: fixed;
-  justify-content: center;
-  line-height: 24px;
-  z-index: 9997;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
   top: 0;
   left: 0;
   overflow: auto;
+  height: 100%;
+  line-height: 24px;
+  z-index: 9997;
   padding: 15px;
-  display: flex;
-  align-items: center;
   transition: all 0.5s;
 `
 export const NavMenu = styled.nav`
