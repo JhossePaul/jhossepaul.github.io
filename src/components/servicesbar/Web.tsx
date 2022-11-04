@@ -25,7 +25,6 @@ export default function Web () {
       </TechContent>
 
       <TechIconsContainer>
-        image.png
         <TechIcon>
           <img
             src='https://www.playframework.com/assets/images/logos/9382fa0d736c5e7f01d0b7c2726a924d-play_full_color.svg'
