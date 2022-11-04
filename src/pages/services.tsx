@@ -1,4 +1,5 @@
 import { SectionTitle, SectionContent, SectionContainer } from 'src/components/main'
+import { ServicesBar } from '@/components/servicesbar'
 
 export default function Services () {
   return (
@@ -6,10 +7,7 @@ export default function Services () {
       <SectionTitle>
         <h2>Services</h2>
       </SectionTitle>
-
-      <SectionContent>
-        Under construction
-      </SectionContent>
+      <ServicesBar />
     </SectionContainer>
   )
 }

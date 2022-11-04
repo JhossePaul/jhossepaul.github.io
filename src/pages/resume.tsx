@@ -89,16 +89,14 @@ export default function Resume () {
                 Apache Impala, HDFS CLI
               </p>
               <h5>Key Projects</h5>
-              <p>
-                <ul>
-                  <li>Banco Azteca internal R Package</li>
-                  <li>Customer Lifetime Value Models</li>
-                  <li>Kriging models to estimate credit risk zones in Mexico</li>
-                  <li>Predictive models to offer credit products to our debit and remittance customers</li>
-                  <li>Recommender systems for household products</li>
-                  <li>Customer segmentation based on their transactional behaviour </li>
-                </ul>
-              </p>
+              <ul>
+                <li>Banco Azteca internal R Package</li>
+                <li>Customer Lifetime Value Models</li>
+                <li>Kriging models to estimate credit risk zones in Mexico</li>
+                <li>Predictive models to offer credit products to our debit and remittance customers</li>
+                <li>Recommender systems for household products</li>
+                <li>Customer segmentation based on their transactional behaviour </li>
+              </ul>
             </TooltipText>
           </ResumeItem>
 
@@ -131,12 +129,10 @@ export default function Resume () {
                 C++, Selenium, PhantomJS, Ghostscript
               </p>
               <h5>Key Projects</h5>
-              <p>
-                <ul>
-                  <li>BMV web scrapper</li>
-                  <li>Credit Portfolio Validation R package</li>
-                </ul>
-              </p>
+              <ul>
+                <li>BMV web scrapper</li>
+                <li>Credit Portfolio Validation R package</li>
+              </ul>
             </TooltipText>
           </ResumeItem>
 
@@ -177,17 +173,15 @@ export default function Resume () {
                 Services, PostgreSQL.
               </p>
               <h5>Key Projects</h5>
-              <p>
-                <ul>
-                  <li>Unilever's portfolio budget optimization dashboard</li>
-                  <li>Real Time Topic Analysis Dashboard</li>
-                  <li>Kantar internal packages development and maintenance</li>
-                  <li>Kantar Choice Model Optimization Dashboard</li>
-                  <li>Real time time series characterization dashboard</li>
-                  <li>Kantar internal packages development and maintenance</li>
-                  <li>Azure Blob Client R Package</li>
-                </ul>
-              </p>
+              <ul>
+                <li>Unilever's portfolio budget optimization dashboard</li>
+                <li>Real Time Topic Analysis Dashboard</li>
+                <li>Kantar internal packages development and maintenance</li>
+                <li>Kantar Choice Model Optimization Dashboard</li>
+                <li>Real time time series characterization dashboard</li>
+                <li>Kantar internal packages development and maintenance</li>
+                <li>Azure Blob Client R Package</li>
+              </ul>
             </TooltipText>
           </ResumeItem>
 
@@ -219,12 +213,10 @@ export default function Resume () {
                 Sawthoot Software, Python
               </p>
               <h5>Key Projects</h5>
-              <p>
-                <ul>
-                  <li>Walmart Market Basket Model</li>
-                  <li>Kantar AdReaction Analysis</li>
-                </ul>
-              </p>
+              <ul>
+                <li>Walmart Market Basket Model</li>
+                <li>Kantar AdReaction Analysis</li>
+              </ul>
             </TooltipText>
           </ResumeItem>
 
@@ -256,12 +248,10 @@ export default function Resume () {
                 Javascript, PHP, R, Python, MySQL, MongoDB
               </p>
               <h5>Key Projects</h5>
-              <p>
-                <ul>
-                  <li>Porsche BI Dashboard</li>
-                  <li>Seat Social Media Analysis</li>
-                </ul>
-              </p>
+              <ul>
+                <li>Porsche BI Dashboard</li>
+                <li>Seat Social Media Analysis</li>
+              </ul>
             </TooltipText>
           </ResumeItem>
 

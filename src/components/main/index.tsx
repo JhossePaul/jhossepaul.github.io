@@ -109,7 +109,6 @@ export const SectionContainer = styled.div`
     padding: 0 12px;
     margin: 0 8px;
     box-sizing: border-box;
-    max-width: 960px;
     opacity: 1;
     font-size: 16px;
     font-weight: 400;
@@ -133,7 +132,7 @@ export const SectionContent = styled.div`
 export const TooltipText = styled.div`
     visibility: hidden;
     width: 90%;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: transparent;
     color: #fff;
     padding: 10px 10px;
     border-radius: 6px;
@@ -153,6 +152,8 @@ export const ResumeItem = styled.div`
     position: relative;
     &:hover ${TooltipText} {
         visibility: visible;
+        background-color: rgba(0, 0, 0, .8);
+        transition-delay: 1s;
     }
     h4 {
         margin: 0 0 10px 0;

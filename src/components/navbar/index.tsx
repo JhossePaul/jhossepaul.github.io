@@ -5,6 +5,7 @@ import {
   NavIcon,
   NavItem,
 } from './NavbarElements'
+
 import {
   FaHome,
   FaUser,
@@ -48,20 +49,20 @@ export function Navbar () {
         </NavItem>
 
         <NavItem>
-          <NavLink to='portfolio' activeClass='active' spy smooth offset={-70} duration={500}>
-            <NavIcon>
-              <FaBriefcase />
-            </NavIcon>
-            <span>Portfolio</span>
-          </NavLink>
-        </NavItem>
-
-        <NavItem>
           <NavLink to='services' activeClass='active' spy smooth offset={-70} duration={500}>
             <NavIcon>
               <FaCode />
             </NavIcon>
             <span>Services</span>
+          </NavLink>
+        </NavItem>
+
+        <NavItem>
+          <NavLink to='portfolio' activeClass='active' spy smooth offset={-70} duration={500}>
+            <NavIcon>
+              <FaBriefcase />
+            </NavIcon>
+            <span>Portfolio</span>
           </NavLink>
         </NavItem>
 

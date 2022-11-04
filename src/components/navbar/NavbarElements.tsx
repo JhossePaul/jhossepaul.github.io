@@ -15,6 +15,12 @@ export const Header = styled.header`
   z-index: 9997;
   padding: 15px;
   transition: all 0.5s;
+  @media (max-width: 992px) {
+    width: 300px;
+    background: #fff;
+    border-right: 1px solid #e6e9ec;
+    left: -300px;
+  }
 `
 export const NavMenu = styled.nav`
   display: block;
@@ -25,6 +31,19 @@ export const NavMenu = styled.nav`
   position: relative;
   text-align: start;
   text-size-adjust: 100%;
+
+  @media (min-width: 992px) {
+    .nav-menu a,
+    .nav-menu a:focus {
+      width: 56px;
+    }
+  
+    .nav-menu a span,
+    .nav-menu a:focus span {
+      display: none;
+      color: #fff;
+    }
+  }
 `
 
 export const NavItem = styled.div`

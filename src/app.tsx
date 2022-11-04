@@ -1,4 +1,5 @@
 import { Navbar } from './components/navbar'
+import { ServicesBar } from './components/servicesbar'
 import { Main, Section, SectionContainer, Hero } from './components/main'
 import Home from './pages/home'
 import About from './pages/about'
@@ -29,15 +30,15 @@ export function App () {
           </SectionContainer>
         </Section>
 
-        <Section id='portfolio'>
-          <SectionContainer>
-            <Portfolio />
-          </SectionContainer>
-        </Section>
-
         <Section id='services'>
           <SectionContainer>
             <Services />
+          </SectionContainer>
+        </Section>
+
+        <Section id='portfolio'>
+          <SectionContainer>
+            <Portfolio />
           </SectionContainer>
         </Section>
 
